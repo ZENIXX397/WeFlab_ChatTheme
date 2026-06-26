@@ -1,0 +1,461 @@
+:root {
+--dpi : 2;
+--dfbg : linear-gradient(90deg, #000080, #000080);
+--afbg : linear-gradient(135deg,#007fff 0 26%, #009fff 0 52%, #00bfff 0 67%, #00dfff 0 82%, #00ffff 0 97%, #55ffaa 0);
+--sgbg : linear-gradient(90deg, #d4ff00 0 75%, #ffff00 0);
+--nabg : linear-gradient(135deg, #00ffaa, #00ffaa);
+--ytbg : linear-gradient(90deg, #ff0000, #ff0000);
+--twbg : linear-gradient(135deg, #7f3fff, #7f3fff);
+--cmbg : linear-gradient(45deg, #7f5fff 0 25%, #aa3fff 0 72%, #d41fff 0);
+--winbr : inset calc(var(--dpi) * -1px) calc(var(--dpi) * -1px) #0a0a0a,inset calc(var(--dpi) * 1px) calc(var(--dpi) * 1px) #dfdfdf,inset calc(var(--dpi) * -2px) calc(var(--dpi) * -2px) #808080,inset calc(var(--dpi) * 2px) calc(var(--dpi) * 2px) #fff;
+--winbr2 : inset calc(var(--dpi) * -1px) calc(var(--dpi) * -1px) #0a0a0a,inset calc(var(--dpi) * 1px) calc(var(--dpi) * 1px) #dfdfdf,inset calc(var(--dpi) * -2px) calc(var(--dpi) * -2px) #808080,inset calc(var(--dpi) * 2px) calc(var(--dpi) * 2px) #fff, inset calc(var(--dpi) * -3px) calc(var(--dpi) * -3px) #c0c0c0, inset calc(var(--dpi) * 3px) calc(var(--dpi) * 3px) #c0c0c0;
+--winbr0 : inset calc(var(--dpi) * -1px) calc(var(--dpi) * -1px) #dfdfdf,inset calc(var(--dpi) * 1px) calc(var(--dpi) * 1px) #808080;
+--winbg : #c0c0c0;
+--winbg2 : linear-gradient(90deg, #c0c0c0, #c0c0c0);
+--inbg : #808080;
+--inbg2 : linear-gradient(90deg, #808080, #808080);
+--Win9xX : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 16 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: silver; %7D .cls-3 %7B fill: %23dfdfdf; %7D .cls-4 %7B fill: gray; %7D .cls-5 %7B fill: %230a0a0a; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cg%3E%3Crect class='cls-5' y='0' width='16' height='14'/%3E%3Crect class='cls-1' y='0' width='15' height='13'/%3E%3Crect class='cls-4' x='1' y='1' width='14' height='12'/%3E%3Crect class='cls-3' x='1' y='1' width='13' height='11'/%3E%3Crect class='cls-2' x='2' y='2' width='12' height='10'/%3E%3C/g%3E%3Cpolygon points='6 9 7 9 7 8 8 8 9 8 9 9 10 9 10 10 12 10 12 9 11 9 11 8 10 8 10 7 9 7 9 6 10 6 10 5 11 5 11 4 12 4 12 3 10 3 10 4 9 4 9 5 8 5 7 5 7 4 6 4 6 3 4 3 4 4 5 4 5 5 6 5 6 6 7 6 7 7 6 7 6 8 5 8 5 9 4 9 4 10 6 10 6 9'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--Win9xMax : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 16 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: silver; %7D .cls-3 %7B fill: %23dfdfdf; %7D .cls-4 %7B fill: gray; %7D .cls-5 %7B fill: %230a0a0a; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cg%3E%3Crect class='cls-5' width='16' height='14'/%3E%3Crect class='cls-1' width='15' height='13'/%3E%3Crect class='cls-4' x='1' y='1' width='14' height='12'/%3E%3Crect class='cls-3' x='1' y='1' width='13' height='11'/%3E%3Crect class='cls-2' x='2' y='2' width='12' height='10'/%3E%3C/g%3E%3Cpath d='M3,2v9h9V2H3ZM11,10h-7v-6h7v6Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--Win9xRes : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 16 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: silver; %7D .cls-3 %7B fill: %23dfdfdf; %7D .cls-4 %7B fill: gray; %7D .cls-5 %7B fill: %230a0a0a; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cg%3E%3Crect class='cls-5' width='16' height='14'/%3E%3Crect class='cls-1' width='15' height='13'/%3E%3Crect class='cls-4' x='1' y='1' width='14' height='12'/%3E%3Crect class='cls-3' x='1' y='1' width='13' height='11'/%3E%3Crect class='cls-2' x='2' y='2' width='12' height='10'/%3E%3C/g%3E%3Cpath d='M5,2v3h-2v6h6v-3h2V2h-6ZM8,10h-4v-3h4v3ZM10,7h-1v-2h-3v-1h4v3Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--Win9xLock : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 16 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: silver; %7D .cls-3 %7B fill: %23dfdfdf; %7D .cls-4 %7B fill: gray; %7D .cls-5 %7B fill: %230a0a0a; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cg%3E%3Crect class='cls-5' width='16' height='14'/%3E%3Crect class='cls-1' width='15' height='13'/%3E%3Crect class='cls-4' x='1' y='1' width='14' height='12'/%3E%3Crect class='cls-3' x='1' y='1' width='13' height='11'/%3E%3Crect class='cls-2' x='2' y='2' width='12' height='10'/%3E%3C/g%3E%3Cpath class='cls-1' d='M13,12V3H4v9h9ZM5,11v-6h7v6h-7Z'/%3E%3Cpath class='cls-4' d='M12,11V2H3v9h9ZM4,10v-6h7v6h-7Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--Win9xMin : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 16 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: silver; %7D .cls-3 %7B fill: %23dfdfdf; %7D .cls-4 %7B fill: gray; %7D .cls-5 %7B fill: %230a0a0a; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cg%3E%3Crect class='cls-5' width='16' height='14'/%3E%3Crect class='cls-1' width='15' height='13'/%3E%3Crect class='cls-4' x='1' y='1' width='14' height='12'/%3E%3Crect class='cls-3' x='1' y='1' width='13' height='11'/%3E%3Crect class='cls-2' x='2' y='2' width='12' height='10'/%3E%3C/g%3E%3Crect x='4' y='9' width='6' height='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--Win9xQue : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 16 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: silver; %7D .cls-3 %7B fill: %23dfdfdf; %7D .cls-4 %7B fill: gray; %7D .cls-5 %7B fill: %230a0a0a; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cg%3E%3Crect class='cls-5' width='16' height='14'/%3E%3Crect class='cls-1' width='15' height='13'/%3E%3Crect class='cls-4' x='1' y='1' width='14' height='12'/%3E%3Crect class='cls-3' x='1' y='1' width='13' height='11'/%3E%3Crect class='cls-2' x='2' y='2' width='12' height='10'/%3E%3C/g%3E%3Cg%3E%3Cpolygon points='10 3 10 2 6 2 6 3 5 3 5 5 7 5 7 3 9 3 9 5 8 5 8 6 7 6 7 8 9 8 9 6 10 6 10 5 11 5 11 3 10 3'/%3E%3Crect x='7' y='9' width='2' height='2'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--RetroChatConf : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 124 23'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: silver; %7D .cls-3 %7B fill: gray; %7D .cls-4 %7B fill: %230a0a0a; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cg%3E%3Cg%3E%3Cpolygon class='cls-2' points='57 21 57 7 57 1 30 1 1 1 1 2 1 7 1 11 1 21 30 21 57 21'/%3E%3Cpolygon class='cls-1' points='1 21 1 11 1 7 1 2 1 1 30 1 57 1 58 1 58 0 30 0 0 0 0 1 0 7 0 11 0 22 1 22 1 21'/%3E%3Cpolygon class='cls-3' points='57 7 57 21 30 21 1 21 1 22 30 22 57 22 58 22 58 7 58 1 57 1 57 7'/%3E%3Cpolygon class='cls-4' points='58 0 58 1 58 7 58 22 57 22 30 22 1 22 0 22 0 23 30 23 58 23 59 23 59 7 59 0 58 0'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M27,5h-2v6h-5v-1h2v-1h1v-1h-1v-1h1v-1h-3v-1h-2v1h-3v1h1v1h-1v1h1v1h2v1h-3v1h10v1h-9v1h9v4h1v-1h1v-8h3v-1h-3v-3ZM17,9v-1h4v1h-4Z'/%3E%3Cpath d='M32,11h1v1h4v-1h1v-1h1v-3h-1v-1h-1v-1h-4v1h-1v1h-1v3h1v1ZM33,7h1v-1h2v1h1v3h-1v1h-2v-1h-1v-3Z'/%3E%3Crect x='42' y='5' width='2' height='7'/%3E%3Cpolygon points='34 13 32 13 32 17 33 17 33 18 44 18 44 17 34 17 34 13'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpolygon class='cls-2' points='122 21 122 7 122 1 95 1 66 1 66 2 66 7 66 11 66 21 95 21 122 21'/%3E%3Cpolygon class='cls-1' points='66 21 66 11 66 7 66 2 66 1 95 1 122 1 123 1 123 0 95 0 65 0 65 1 65 7 65 11 65 22 66 22 66 21'/%3E%3Cpolygon class='cls-3' points='122 7 122 21 95 21 66 21 66 22 95 22 122 22 123 22 123 7 123 1 122 1 122 7'/%3E%3Cpolygon class='cls-4' points='123 0 123 1 123 7 123 22 122 22 95 22 66 22 65 22 65 23 95 23 123 23 124 23 124 7 124 0 123 0'/%3E%3C/g%3E%3Cg%3E%3Cpolygon points='82 10 83 10 83 9 85 9 85 10 86 10 86 11 88 11 88 10 87 10 87 9 86 9 86 8 85 8 85 7 88 7 88 6 85 6 85 5 83 5 83 6 80 6 80 7 83 7 83 8 82 8 82 9 81 9 81 10 80 10 80 11 82 11 82 10'/%3E%3Cpolygon points='91 12 80 12 80 13 83 13 83 18 85 18 85 13 91 13 91 18 93 18 93 5 91 5 91 12'/%3E%3Cpolygon points='101 12 101 11 102 11 102 10 104 10 104 11 105 11 105 12 106 12 109 12 109 11 106 11 106 10 105 10 105 9 104 9 104 6 102 6 102 9 101 9 101 10 100 10 100 11 97 11 97 12 100 12 101 12'/%3E%3Cpolygon points='104 16 104 13 102 13 102 16 96 16 96 17 102 17 104 17 110 17 110 16 104 16'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--RetroChatConfEnt :url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 124 23'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: silver; %7D .cls-3 %7B fill: gray; %7D .cls-4 %7B fill: %230a0a0a; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cg%3E%3Cg%3E%3Cpolygon class='cls-2' points='122 21 122 7 122 1 95 1 66 1 66 2 66 7 66 11 66 21 95 21 122 21'/%3E%3Cpolygon class='cls-1' points='66 21 66 11 66 7 66 2 66 1 95 1 122 1 123 1 123 0 95 0 65 0 65 1 65 7 65 11 65 22 66 22 66 21'/%3E%3Cpolygon class='cls-3' points='122 7 122 21 95 21 66 21 66 22 95 22 122 22 123 22 123 7 123 1 122 1 122 7'/%3E%3Cpolygon class='cls-4' points='123 0 123 1 123 7 123 22 122 22 95 22 66 22 65 22 65 23 95 23 123 23 124 23 124 7 124 0 123 0'/%3E%3C/g%3E%3Cg%3E%3Cpolygon points='82 10 83 10 83 9 85 9 85 10 86 10 86 11 88 11 88 10 87 10 87 9 86 9 86 8 85 8 85 7 88 7 88 6 85 6 85 5 83 5 83 6 80 6 80 7 83 7 83 8 82 8 82 9 81 9 81 10 80 10 80 11 82 11 82 10'/%3E%3Cpolygon points='91 12 80 12 80 13 83 13 83 18 85 18 85 13 91 13 91 18 93 18 93 5 91 5 91 12'/%3E%3Cpolygon points='101 12 101 11 102 11 102 10 104 10 104 11 105 11 105 12 106 12 109 12 109 11 106 11 106 10 105 10 105 9 104 9 104 6 102 6 102 9 101 9 101 10 100 10 100 11 97 11 97 12 100 12 101 12'/%3E%3Cpolygon points='104 16 104 13 102 13 102 16 96 16 96 17 102 17 104 17 110 17 110 16 104 16'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpolygon class='cls-2' points='30 20 56 20 56 7.4 56 6 56 2 31 2 30 2 2 2 2 2.9 2 3 2 7.4 2 8 2 11 2 12 2 20 29 20 30 20'/%3E%3Cpolygon class='cls-3' points='56 6 56 7.4 56 20 30 20 29 20 2 20 2 21 29 21 56 21 57 21 57 6 57 2 56 2 56 6'/%3E%3Cpolygon class='cls-1' points='1 8 1 12 1 20 1 21 2 21 2 20 2 12 2 11 2 8 2 7.4 2 3 2 2.9 2 2 30 2 31 2 56 2 57 2 57 1 56 1 31 1 1 1 1 2 1 8'/%3E%3Cpath class='cls-4' d='M0,0v23h59V0H0ZM31,1h26v20H1V1h30Z'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M27,5h-2v6h-5v-1h2v-1h1v-1h-1v-1h1v-1h-3v-1h-2v1h-3v1h1v1h-1v1h1v1h2v1h-3v1h10v1h-9v1h9v4h1v-1h1v-8h3v-1h-3v-3ZM17,9v-1h4v1h-4Z'/%3E%3Cpath d='M32,11h1v1h4v-1h1v-1h1v-3h-1v-1h-1v-1h-4v1h-1v1h-1v3h1v1ZM33,7h1v-1h2v1h1v3h-1v1h-2v-1h-1v-3Z'/%3E%3Crect x='42' y='5' width='2' height='7'/%3E%3Cpolygon points='34 13 32 13 32 17 33 17 33 18 44 18 44 17 34 17 34 13'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--RetroChatNotiB : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 44 14'%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cpolygon points='0 3 0 13 0 14 4 14 4 13 2 13 2 3 4 3 4 2 0 2 0 3'/%3E%3Cpath d='M8,6h1v1h4v-1h1v-1h1v-3h-1v-1h-1V0h-4v1h-1v1h-1v3h1v1ZM9,2h1v-1h2v1h1v3h-1v1h-2v-1h-1v-3Z'/%3E%3Cpolygon points='19 0 17 0 17 7 19 7 19 4 22 4 22 3 19 3 19 0'/%3E%3Cpolygon points='8 9 17 9 17 10 8 10 8 11 8 12 9 12 9 13 19 13 19 12 10 12 10 11 17 11 19 11 19 9 19 8 8 8 8 9'/%3E%3Cpolygon points='24 7 31 7 31 6 25 6 25 4 29 4 31 4 31 1 31 0 23 0 23 1 29 1 29 3 23 3 23 4 23 6 24 6 24 7'/%3E%3Crect x='34' width='2' height='7'/%3E%3Cpath d='M24,9v3h1v1h10v-1h1v-4h-12v1ZM34,9v3h-8v-3h8Z'/%3E%3Cpolygon points='40 2 40 3 42 3 42 13 40 13 40 14 42 14 44 14 44 3 44 2 40 2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--RetroChatNotiW : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 44 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cpolygon class='cls-1' points='0 3 0 13 0 14 4 14 4 13 2 13 2 3 4 3 4 2 0 2 0 3'/%3E%3Cpath class='cls-1' d='M8,6h1v1h4v-1h1v-1h1v-3h-1v-1h-1V0h-4v1h-1v1h-1v3h1v1ZM9,2h1v-1h2v1h1v3h-1v1h-2v-1h-1v-3Z'/%3E%3Cpolygon class='cls-1' points='19 0 17 0 17 7 19 7 19 4 22 4 22 3 19 3 19 0'/%3E%3Cpolygon class='cls-1' points='8 9 17 9 17 10 8 10 8 11 8 12 9 12 9 13 19 13 19 12 10 12 10 11 17 11 19 11 19 9 19 8 8 8 8 9'/%3E%3Cpolygon class='cls-1' points='24 7 31 7 31 6 25 6 25 4 29 4 31 4 31 1 31 0 23 0 23 1 29 1 29 3 23 3 23 4 23 6 24 6 24 7'/%3E%3Crect class='cls-1' x='34' width='2' height='7'/%3E%3Cpath class='cls-1' d='M24,9v3h1v1h10v-1h1v-4h-12v1ZM34,9v3h-8v-3h8Z'/%3E%3Cpolygon class='cls-1' points='40 2 40 3 42 3 42 13 40 13 40 14 42 14 44 14 44 3 44 2 40 2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--RetroChatNomaB : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 44 14'%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cg%3E%3Cpolygon points='0 3 0 14 2 14 4 14 4 13 2 13 2 3 4 3 4 2 0 2 0 3'/%3E%3Cpolygon points='12 0 10 0 10 1 7 1 7 2 10 2 10 9 9 9 9 10 8 10 8 11 7 11 7 12 9 12 9 11 10 11 10 10 12 10 12 11 13 11 13 12 15 12 15 11 14 11 14 10 13 10 13 9 12 9 12 2 15 2 15 1 12 1 12 0'/%3E%3Cpolygon points='19 6 18 6 18 0 16 0 16 13 18 13 18 7 19 7 19 13 21 13 21 0 19 0 19 6'/%3E%3Cpolygon points='24 7 31 7 31 6 25 6 25 4 31 4 31 3 25 3 25 1 31 1 31 0 23 0 23 1 23 6 24 6 24 7'/%3E%3Crect x='34' width='2' height='7'/%3E%3Cpath d='M34,8h-8v1h-2v3h2v1h8v-1h2v-3h-2v-1ZM34,11h-1v1h-6v-1h-1v-1h1v-1h6v1h1v1Z'/%3E%3Cpolygon points='40 2 40 3 42 3 42 13 40 13 40 14 42 14 44 14 44 3 44 2 40 2'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--RetroChatNomaW : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 44 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D %3C/style%3E%3C/defs%3E%3C!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709) --%3E%3Cg%3E%3Cg id='_레이어_1'%3E%3Cpolygon class='cls-1' points='0 3 0 14 2 14 4 14 4 13 2 13 2 3 4 3 4 2 0 2 0 3'/%3E%3Cpolygon class='cls-1' points='12 0 10 0 10 1 7 1 7 2 10 2 10 9 9 9 9 10 8 10 8 11 7 11 7 12 9 12 9 11 10 11 10 10 12 10 12 11 13 11 13 12 15 12 15 11 14 11 14 10 13 10 13 9 12 9 12 2 15 2 15 1 12 1 12 0'/%3E%3Cpolygon class='cls-1' points='19 6 18 6 18 0 16 0 16 13 18 13 18 7 19 7 19 13 21 13 21 0 19 0 19 6'/%3E%3Cpolygon class='cls-1' points='24 7 31 7 31 6 25 6 25 4 31 4 31 3 25 3 25 1 31 1 31 0 23 0 23 1 23 6 24 6 24 7'/%3E%3Crect class='cls-1' x='34' width='2' height='7'/%3E%3Cpath class='cls-1' d='M34,8h-8v1h-2v3h2v1h8v-1h2v-3h-2v-1ZM34,10v1h-1v1h-6v-1h-1v-1h1v-1h6v1h1Z'/%3E%3Cpolygon class='cls-1' points='40 2 40 3 42 3 42 13 40 13 40 14 42 14 44 14 44 3 44 2 40 2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+--RetroNotiB : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='_레이어_1' data-name='레이어_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 14'%3E%3Cpolygon points='0 3 0 14 2 14 4 14 4 13 2 13 2 3 4 3 4 2 0 2 0 3'/%3E%3Cpolygon points='40 2 40 3 42 3 42 13 40 13 40 14 42 14 44 14 44 3 44 2 40 2'/%3E%3Cpolygon points='19 5 20 5 20 1 20 0 8 0 8 1 18 1 18 5 17 5 17 6 15 6 15 3 13 3 13 6 7 6 7 7 21 7 21 6 19 6 19 5'/%3E%3Cpath d='M18,8h-8v1h-2v3h2v1h8v-1h2v-3h-2v-1ZM18,11h-1v1h-6v-1h-1v-1h1v-1h6v1h1v1Z'/%3E%3Cpolygon points='23 2 26 2 26 9 25 9 25 10 24 10 24 11 23 11 23 12 24 12 25 12 25 11 26 11 26 10 28 10 28 11 29 11 29 12 30 12 31 12 31 11 30 11 30 10 29 10 29 9 28 9 28 2 31 2 31 1 23 1 23 2'/%3E%3Crect x='34' width='2' height='13'/%3E%3C/svg%3E");
+--RetroNotiW : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='_레이어_1' data-name='레이어_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D %3C/style%3E%3C/defs%3E%3Cpolygon class='cls-1' points='0 3 0 14 2 14 4 14 4 13 2 13 2 3 4 3 4 2 0 2 0 3'/%3E%3Cpolygon class='cls-1' points='40 2 40 3 42 3 42 13 40 13 40 14 42 14 44 14 44 3 44 2 40 2'/%3E%3Cpolygon class='cls-1' points='19 5 20 5 20 1 20 0 8 0 8 1 18 1 18 5 17 5 17 6 15 6 15 3 13 3 13 6 7 6 7 7 21 7 21 6 19 6 19 5'/%3E%3Cpath class='cls-1' d='M18,8h-8v1h-2v3h2v1h8v-1h2v-3h-2v-1ZM18,11h-1v1h-6v-1h-1v-1h1v-1h6v1h1v1Z'/%3E%3Cpolygon class='cls-1' points='23 2 26 2 26 9 25 9 25 10 24 10 24 11 23 11 23 12 24 12 25 12 25 11 26 11 26 10 28 10 28 11 29 11 29 12 30 12 31 12 31 11 30 11 30 10 29 10 29 9 28 9 28 2 31 2 31 1 23 1 23 2'/%3E%3Crect class='cls-1' x='34' width='2' height='13'/%3E%3C/svg%3E");
+--RetroTimeB : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='_레이어_1' data-name='레이어_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 14'%3E%3Cpolygon points='0 3 0 14 2 14 4 14 4 13 2 13 2 3 4 3 4 2 0 2 0 3'/%3E%3Cpolygon points='14 10 13 10 13 9 12 9 12 1 10 1 10 9 9 9 9 10 8 10 8 11 7 11 7 12 8 12 9 12 9 11 10 11 10 10 12 10 12 11 13 11 13 12 14 12 15 12 15 11 14 11 14 10'/%3E%3Crect x='18' width='2' height='13'/%3E%3Cpolygon points='27 6 24 6 24 7 28 7 28 6 29 6 29 1 29 0 23 0 23 1 27 1 27 6'/%3E%3Cpolygon points='35 0 33 0 33 7 35 7 35 4 38 4 38 3 35 3 35 0'/%3E%3Cpolygon points='26 8 24 8 24 12 25 12 25 13 35 13 35 12 26 12 26 8'/%3E%3Cpolygon points='40 2 40 3 42 3 42 13 40 13 40 14 42 14 44 14 44 3 44 2 40 2'/%3E%3C/svg%3E");
+--RetroTimeW : url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='_레이어_1' data-name='레이어_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 14'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D %3C/style%3E%3C/defs%3E%3Cpolygon class='cls-1' points='0 3 0 14 2 14 4 14 4 13 2 13 2 3 4 3 4 2 0 2 0 3'/%3E%3Cpolygon class='cls-1' points='14 10 13 10 13 9 12 9 12 1 10 1 10 9 9 9 9 10 8 10 8 11 7 11 7 12 8 12 9 12 9 11 10 11 10 10 12 10 12 11 13 11 13 12 14 12 15 12 15 11 14 11 14 10'/%3E%3Crect class='cls-1' x='18' width='2' height='13'/%3E%3Cpolygon class='cls-1' points='27 6 24 6 24 7 28 7 28 6 29 6 29 1 29 0 23 0 23 1 27 1 27 6'/%3E%3Cpolygon class='cls-1' points='35 0 33 0 33 7 35 7 35 4 38 4 38 3 35 3 35 0'/%3E%3Cpolygon class='cls-1' points='26 8 24 8 24 12 25 12 25 13 35 13 35 12 26 12 26 8'/%3E%3Cpolygon class='cls-1' points='40 2 40 3 42 3 42 13 40 13 40 14 42 14 44 14 44 3 44 2 40 2'/%3E%3C/svg%3E");
+}
+@font-face {
+font-family: 'DungGeunMoFixedSys';
+src: url('https://ZENIXX397.github.io/Fonts/DungGeunMo.ttf') format('truetype');
+src: url('https://ZENIXX397.github.io/Fonts/DungGeunMo.woff') format('woff');
+src: url('https://ZENIXX397.github.io/Fonts/DungGeunMo.woff2') format('woff2');
+}
+@keyframes WinBlink {
+	0% {
+		background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--dfbg) 0 0/100% calc(var(--dpi) * 20px);
+	} 50% {
+		background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--inbg2) 0 0/100% calc(var(--dpi) * 20px);
+	} 100% {
+		background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--dfbg) 0 0/100% calc(var(--dpi) * 20px);
+	}
+}
+* {
+font-family: 'DungGeunMoFixedSys' !important;
+font-size: calc(var(--dpi) * 16px) !important;
+text-shadow: none !important;
+}
+#page_wrap .page_area {
+padding: 0;
+}
+.notice_wrap {
+margin: 0 !important;
+& .notice {
+border-radius: 0 !important;
+border: 0 !important;
+background: var(--winbg) !important;
+background-repeat: no-repeat !important;
+box-shadow: var(--winbr);
+padding: calc(var(--dpi) * 3px) calc(var(--dpi) * 3px) !important;
+& .text_wrap {
+background: var(--RetroNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px), var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xQue) top calc(var(--dpi) * 2px) right calc(var(--dpi) *20px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--inbg2) 0 0/100% calc(var(--dpi) * 20px) !important;
+background-repeat: no-repeat !important;
+& .text {
+padding: calc(var(--dpi) * 20px) calc(var(--dpi) * 2px) 0 calc(var(--dpi) * 2px);
+word-break: break-all;
+text-align: left;
+white-space: normal;
+	color: #000 !important;
+}
+}
+}
+}
+.timer_wrap {
+margin: 0 !important;
+& .timer {
+border-radius: 0 !important;
+border: 0 !important;
+box-shadow: var(--winbr2);
+background: var(--RetroTimeW) top calc(var(--dpi) * 5px) left calc(var(--dpi) * 7px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px), var(--Win9xX) top calc(var(--dpi) * 5px) right calc(var(--dpi) * 5px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xQue) top calc(var(--dpi) * 5px) right calc(var(--dpi) * 23px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--inbg2) 0 0/100% calc(var(--dpi) * 23px), var(--winbg) !important;
+background-repeat: no-repeat !important;
+padding: calc(var(--dpi) * 23px) calc(var(--dpi) * 5px) calc(var(--dpi) * 3px) calc(var(--dpi) * 5px) !important;
+flex-direction: row;
+justify-content: flex-start !important;
+flex-wrap: wrap;
+& .text {
+padding: 0;
+	color: #000 !important;
+}
+}
+}
+.chat_box {
+background: var(--winbg);
+background-repeat: no-repeat;
+box-shadow: var(--winbr);
+padding: calc(var(--dpi) * 3px) !important;
+}
+#page_wrap .page_area.chat .chat_area .chat_update_notice {
+	box-shadow: var(--winbr2);
+	padding: calc(var(--dpi) * 3px);
+	border-radius: 0;
+	left: 5px;
+	right: 5px;
+	opacity: 1 !important;
+}
+#page_wrap .page_area.chat .chat_area .chat_update_notice .chat_update_top {
+	animation: 1s WinBlink infinite;
+	background-repeat: no-repeat;
+	padding: 0;
+	width: 100%;
+}
+#page_wrap .page_area.chat .chat_area .chat_update_notice .chat_update_top .chat_update_title .fa {
+	display: none;
+}
+#page_wrap .page_area.chat .chat_area .chat_update_notice .chat_update_top .chat_update_title {
+	font-weight: 300;
+	line-height: 1;
+	padding: calc(var(--dpi) * 2px) calc(var(--dpi) * 2px);
+}
+	#page_wrap .page_area.chat .chat_area .chat_update_notice .chat_update_top .chat_update_title .sec {
+	color: #ffffff;
+	font-weight: 300;
+	line-height: 1;
+	margin-left: calc(var(--dpi) * 8px);
+	}
+#page_wrap .page_area.chat .chat_area .chat_update_notice .chat_update_box {
+	display: block;
+	animation: none;
+}
+#page_wrap .page_area.chat .chat_area .chat_update_notice .chat_update_box.next_slide {
+	animation: none;
+}
+#page_wrap .page_area.chat:not(.item_chat_name):not(.item_chat_platform) p.name, #page_wrap .page_area.chat:not(.item_chat_name).item_chat_platform p.name {
+display: flex !important;
+& .icon_badge {
+display: flex !important;
+}
+& .nick, .id {
+display: flex !important;
+}
+& .nick {
+color: #0000;
+background: var(--RetroChatNomaW) top 0 left calc(var(--dpi) * 2px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px) no-repeat;
+}
+}
+#page_wrap .page_area.chat:not(.item_chat_badgeafreecastreamer) p.name .afreeca.streamer,
+#page_wrap .page_area.chat:not(.item_chat_badgeafreecamanager) p.name .afreeca.manager,
+#page_wrap .page_area.chat:not(.item_chat_badgeafreecatop) p.name .afreeca.top,
+#page_wrap .page_area.chat:not(.item_chat_badgeafreecafan) p.name .afreeca.fan,
+#page_wrap .page_area.chat:not(.item_chat_badgeafreecasubscribe) p.name .afreeca.subscribe,
+#page_wrap .page_area.chat:not(.item_chat_badgeafreecasupport) p.name .afreeca.support,
+#page_wrap .page_area.chat:not(.item_chat_badgesoopgstreamer) p.name .soopg.streamer,
+#page_wrap .page_area.chat:not(.item_chat_badgesoopgmanager) p.name .soopg.manager,
+#page_wrap .page_area.chat:not(.item_chat_badgesoopgsubscribe) p.name .soopg.subscribe,
+#page_wrap .page_area.chat:not(.item_chat_badgesoopgfan) p.name .soopg.fan,
+#page_wrap .page_area.chat:not(.item_chat_badgesoopgetc) p.name .soopg.etc,
+#page_wrap .page_area.chat:not(.item_chat_badgenaverstreamer) p.name .naver.streamer,
+#page_wrap .page_area.chat:not(.item_chat_badgenavermanager) p.name .naver.manager,
+#page_wrap .page_area.chat:not(.item_chat_badgenaversubscribe) p.name .naver.subscribe,
+#page_wrap .page_area.chat:not(.item_chat_badgenaverfan) p.name .naver.fan,
+#page_wrap .page_area.chat:not(.item_chat_badgenavercheese) p.name .naver.cheese,
+#page_wrap .page_area.chat:not(.item_chat_badgenavergift) p.name .naver.gift,
+#page_wrap .page_area.chat:not(.item_chat_badgenaveretc) p.name .naver.etc,
+#page_wrap .page_area.chat:not(.item_chat_badgeyoutubeprofile) p.name .youtube.profile,
+#page_wrap .page_area.chat:not(.item_chat_badgeyoutubestreamer) p.name .youtube.streamer,
+#page_wrap .page_area.chat:not(.item_chat_badgeyoutubemanager) p.name .youtube.manager,
+#page_wrap .page_area.chat:not(.item_chat_badgeyoutubevip) p.name .youtube.vip,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchstreamer) p.name .twitch.streamer,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchmanager) p.name .twitch.manager,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchadmin) p.name .twitch.superadmin,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchsubscribe) p.name .twitch.subscribe,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchbit) p.name .twitch.bits,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchverified) p.name .twitch.verified,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchvip) p.name .twitch.vip,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchartist) p.name .twitch.artist,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchturbo) p.name .twitch.turbo,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchprime) p.name .twitch.prime,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchprime) p.name .twitch.premium,
+#page_wrap .page_area.chat:not(.item_chat_badgetwitchetc) p.name .twitch.etc,
+#page_wrap .page_area.chat:not(.item_chat_badgecimestreamer) p.name .cime.streamer,
+#page_wrap .page_area.chat:not(.item_chat_badgecimemanager) p.name .cime.manager,
+#page_wrap .page_area.chat:not(.item_chat_badgecimefan) p.name .cime.fan,
+#page_wrap .page_area.chat:not(.item_chat_badgecimesubscribe) p.name .cime.subscribe,
+#page_wrap .page_area.chat:not(.item_chat_badgecimeetc) p.name .cime.etc {
+display: none !important;
+}
+/* #page_wrap .page_area.chat:not(.item_chat_name):not(.item_chat_platform) p.name:has(span:not([style*="display:none"])) {
+background: var(--Win9xX) top calc(var(--dpi) * 3px) right calc(var(--dpi) * 2px) /calc(var(--dpi) *16px) calc(var(--dpi) *14px)no-repeat, var(--dfbg) no-repeat;
+}  */
+.chat_box.afreeca .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--afbg);
+background-repeat: no-repeat;
+}
+.chat_box.soopg .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--sgbg);
+background-repeat: no-repeat;
+}
+.chat_box.naver .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--nabg);
+background-repeat: no-repeat;
+}
+.chat_box.youtube .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--ytbg);
+background-repeat: no-repeat;
+}
+.chat_box.twitch .name { 
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--twbg);
+background-repeat: no-repeat;
+}
+.chat_box.cime .name { 
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--cmbg);
+background-repeat: no-repeat;
+}
+.chat_fix {
+transition-duration: 0s !important;
+& .chat_box {
+animation: none !important;
+border-radius: 0 !important;
+box-shadow: var(--winbr) !important;
+background: var(--winbg) !important;
+}
+& .name:before {
+content: "[고정]";
+margin: calc(var(--dpi) * -2px) calc(var(--dpi) * 2px) 0 calc(var(--dpi) * 2px); 
+color: #fff !important;
+}
+& .afreeca .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xLock) top calc(var(--dpi) * 2px) right calc(var(--dpi) *20px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xMin) top calc(var(--dpi) * 2px) right calc(var(--dpi) *36px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--afbg);
+background-repeat: no-repeat;
+}
+
+& .soopg .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xLock) top calc(var(--dpi) * 2px) right calc(var(--dpi) *20px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xMin) top calc(var(--dpi) * 2px) right calc(var(--dpi) *36px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--sgbg);
+background-repeat: no-repeat;
+}
+& .naver .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xLock) top calc(var(--dpi) * 2px) right calc(var(--dpi) *20px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xMin) top calc(var(--dpi) * 2px) right calc(var(--dpi) *36px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--nabg);
+background-repeat: no-repeat;
+}
+& .youtube .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xLock) top calc(var(--dpi) * 2px) right calc(var(--dpi) *20px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xMin) top calc(var(--dpi) * 2px) right calc(var(--dpi) *36px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--ytbg);
+background-repeat: no-repeat;
+}
+& .twitch .name { 
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xLock) top calc(var(--dpi) * 2px) right calc(var(--dpi) *20px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xMin) top calc(var(--dpi) * 2px) right calc(var(--dpi) *36px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--twbg);
+background-repeat: no-repeat;
+}
+& .cime .name { 
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xLock) top calc(var(--dpi) * 2px) right calc(var(--dpi) *20px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xMin) top calc(var(--dpi) * 2px) right calc(var(--dpi) *36px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--cmbg);
+background-repeat: no-repeat;
+}
+& .text {
+color: #000 !important;
+}
+& i {
+display: none;
+}
+}
+.chathide {
+animation: none !important;
+opacity: 0;
+display: none;
+}
+.name {
+align-items: center;
+display: flex;
+padding: calc(var(--dpi) * 1px) calc(var(--dpi) * 21px) calc(var(--dpi) * 1px) 0;
+gap: 0 !important;
+line-height: calc(var(--dpi) * 16px) !important;
+margin: 0 !important;
+word-break: break-all !important;
+flex-wrap: wrap !important;
+min-height: calc(var(--dpi) * 20px);
+}
+.page_area.chat:not(.item_chat_platform) .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--dfbg) !important;
+background-repeat: no-repeat !important;
+}
+.page_area.chat:not(.item_chat_platform) .chat_fix .name {
+background: var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xLock) top calc(var(--dpi) * 2px) right calc(var(--dpi) *20px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--Win9xMin) top calc(var(--dpi) * 2px) right calc(var(--dpi) *36px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--dfbg) !important;
+background-repeat: no-repeat !important;
+}
+.name span {
+margin: calc(var(--dpi) * -4px) calc(var(--dpi) * 1px) calc(var(--dpi) * -4px) 0 !important;
+word-break: break-all !important;
+}
+/* p.name span:nth-child(1) {
+margin: -8px 2px -8px -8px !important;
+} */
+.name span.id {
+margin: 0 !important;
+word-break: break-all !important;
+}
+.name .nick {
+height: auto !important;
+width: auto !important;
+padding: 0 !important;
+flex: 1 1 !important;
+margin: 0 0 0 calc(var(--dpi) * 2px) !important;
+}
+.name span.icon_platform {
+display: none !important;
+font-size: calc(var(--dpi) * 18px) !important;
+height: calc(var(--dpi) * 18px) !important;
+width: calc(var(--dpi) * 18px) !important;
+margin: 0 0 auto calc(var(--dpi) * 1px) !important;
+}
+.name span.icon_badge {
+font-size: calc(var(--dpi) * 18px) !important;
+height: calc(var(--dpi) * 18px) !important;
+width: calc(var(--dpi) * 18px) !important;
+margin: 0 0 auto calc(var(--dpi) * 1px) !important;
+}
+.text {
+padding: 0 calc(var(--dpi) * 2px);
+line-height: calc(var(--dpi) * 20px) !important;
+}
+.chat_box.image {
+max-width: 100% !important;
+}
+.chat_box.text {
+& .text {
+background: var(--RetroChatConf) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px), var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px), var(--dfbg) 0 0/100% calc(var(--dpi) * 20px);
+}
+}
+.afreeca.text {
+& .text {
+background: var(--RetroChatConf) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px), var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px), var(--afbg) 0 0/100% calc(var(--dpi) * 20px);
+}
+}
+.soopg.text {
+& .text {
+background: var(--RetroChatConf) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px), var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px), var(--sgbg) 0 0/100% calc(var(--dpi) * 20px);
+}
+}
+.naver.text {
+& .text {
+background: var(--RetroChatConf) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px), var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px), var(--nabg) 0 0/100% calc(var(--dpi) * 20px);
+}
+}
+.youtube.text {
+& .text {
+background: var(--RetroChatConf) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px), var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px), var(--ytbg) 0 0/100% calc(var(--dpi) * 20px);
+}
+}
+.twitch.text {
+& .text {
+background: var(--RetroChatConf) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px), var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px), var(--twbg) 0 0/100% calc(var(--dpi) * 20px);
+}
+}
+.cime.text {
+& .text {
+background: var(--RetroChatConf) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px), var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px), var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px), var(--cmbg) 0 0/100% calc(var(--dpi) * 20px);
+}
+}
+.afreeca.text, .soopg.text, .naver.text, .youtube.text, .twitch.text, .cime.text {
+margin: 0 !important;
+& .text {
+padding: calc(var(--dpi) * 20px) calc(var(--dpi) * 2px) calc(var(--dpi) * 30px) calc(var(--dpi) * 2px);
+background-repeat: no-repeat;
+line-height: calc(var(--dpi) * 20px) !important;
+& i{
+display: none;
+}
+}
+}
+.chat_box.text:last-child {
+& .inner_box {
+& .text {
+background: var(--RetroChatConfEnt) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px) no-repeat, var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px) no-repeat, var(--dfbg) 0 0/100% calc(var(--dpi) * 20px) no-repeat !important;
+}
+}
+}
+.chat_box.afreeca.text:last-child {
+& .text {
+background: var(--RetroChatConfEnt) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px) no-repeat, var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) *16px) no-repeat, var(--afbg) 0 0/100% calc(var(--dpi) * 20px) no-repeat !important;
+}
+}
+.chat_box.soopg.text:last-child {
+& .text {
+background: var(--RetroChatConfEnt) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px) no-repeat, var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px) no-repeat, var(--sgbg) 0 0/100% calc(var(--dpi) * 20px) no-repeat !important;
+}
+}
+.chat_box.naver.text:last-child {
+& .text {
+background: var(--RetroChatConfEnt) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px) no-repeat, var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px) no-repeat, var(--nabg) 0 0/100% calc(var(--dpi) * 20px) no-repeat !important;
+}
+}
+.chat_box.youtube.text:last-child {
+& .text {
+background: var(--RetroChatConfEnt) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px) no-repeat, var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px) no-repeat, var(--ytbg) 0 0/100% calc(var(--dpi) * 20px) no-repeat !important;
+}
+}
+.chat_box.twitch.text:last-child {
+& .text {
+background: var(--RetroChatConfEnt) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px) no-repeat, var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px) no-repeat, var(--twbg) 0 0/100% calc(var(--dpi) * 20px) no-repeat !important;
+}
+}
+.chat_box.cime.text:last-child {
+& .text {
+background: var(--RetroChatConfEnt) bottom calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 124px) calc(var(--dpi) * 25px) no-repeat, var(--Win9xX) top calc(var(--dpi) * 2px) right calc(var(--dpi) * 2px)/calc(var(--dpi) * 16px) calc(var(--dpi) * 16px) no-repeat, var(--RetroChatNotiW) top calc(var(--dpi) * 2px) left calc(var(--dpi) * 4px)/calc(var(--dpi) * 44px) calc(var(--dpi) * 16px) no-repeat, var(--cmbg) 0 0/100% calc(var(--dpi) * 20px) no-repeat !important;
+}
+}
+.page_area .viewcount_wrap {
+background: #c0c0c0 !important;
+border: 0 !important;
+border-radius: 0 !important;
+margin: 0 !important;
+padding: calc(var(--dpi) * 2px) !important;
+gap: calc(var(--dpi) * 1px) !important;
+& .view_box {
+background: var(--winbg) !important;
+border-radius: 0 !important;
+box-shadow: var(--winbr0);
+gap: 0;
+& .icon_platform {
+display: none;
+background-color: #0000 !important;
+border-radius: 0 !important;
+height: calc(var(--dpi) * 12px);
+width: calc(var(--dpi) * 12px);
+margin-left: calc(var(--dpi) * 1px);
+}
+& .icon_platform.afreeca, .icon_platform.soopg, .icon_platform.naver, .icon_platform.youtube, .icon_platform.twitch, .icon_platform.cime, .icon_platform.weflab  {
+background-size: calc(var(--dpi) * 10px) !important;
+}
+& .view {
+font-weight: 400 !important;
+font-size: calc(var(--dpi) * 16px) !important;
+line-height: calc(var(--dpi) * 16px);
+padding: 0;
+margin-left: calc(var(--dpi) * 1px);
+color: #000;
+}
+}
+}
+.page_area .viewcount_wrap {
+& .view_box.afreeca {
+background: var(--afbg) 0 0 !important;
+}
+& .view_box.soopg {
+background: var(--sgbg) 0 0 !important;
+}
+& .view_box.naver {
+background: var(--nabg) 0 0 !important;
+}
+& .view_box.youtube {
+background: var(--ytbg) 0 0 !important;
+}
+& .view_box.twitch {
+background: var(--twbg) 0 0 !important;
+}
+& .view_box.cime {
+background: var(--cmbg) 0 0 !important;
+}
+}
